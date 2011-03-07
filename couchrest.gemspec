@@ -97,15 +97,18 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rest-client>, ["~> 1.5.1"])
       s.add_runtime_dependency(%q<mime-types>, ["~> 1.15"])
       s.add_runtime_dependency(%q<json>, ["~> 1.4.6"])
+      s.add_runtime_dependency(%q<uuid>, ["~> 2.3"])
     else
       s.add_dependency(%q<rest-client>, ["~> 1.5.1"])
       s.add_dependency(%q<mime-types>, ["~> 1.15"])
       s.add_dependency(%q<json>, ["~> 1.4.6"])
+      s.add_dependency(%q<uuid>, ["~> 2.3"])
     end
   else
     s.add_dependency(%q<rest-client>, ["~> 1.5.1"])
     s.add_dependency(%q<mime-types>, ["~> 1.15"])
     s.add_dependency(%q<json>, ["~> 1.4.6"])
+    s.add_dependency(%q<uuid>, ["~> 2.3"])
   end
 end
 
